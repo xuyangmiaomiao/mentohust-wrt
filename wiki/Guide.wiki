@@ -1,11 +1,11 @@
-#summary One-sentence summary of this page.
+#summary 介绍刷完固件以后mentohust的使用方法
 
-= Introduction =
+= 概述 =
 
-Add your content here.
+成功刷完路由器固件，并且能共正常启动路由，表示这个固件支持你的路由器，本文介绍在路由上使用mentohust的方法
 
 
-= Details =
+= 细节 =
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
