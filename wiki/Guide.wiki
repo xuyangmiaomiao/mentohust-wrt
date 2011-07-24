@@ -7,7 +7,14 @@
 
 = 细节 =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+在哪里启动mentohust:
+  * 运行mentohust需要添加必要参数，参数使用的详细方法见[http://code.google.com/p/mentohust/wiki/Parameter mentohust参数使用]
+  * telnet登录路由，然后直接输入mentohust指令和参数即可运行
+  * 将指令填在路由器web管理界面->管理->命令里，并保存为启动指令，即可开机自启动
+与原版mentohust不同的地方：
+  * 整合libpcap0.9.8，自动搜索配置文件/jffs/etc/mentohust.conf和/tmp/root/mentohust.conf
+  * 如果启用记录日志，日志log文件将记录在 /tmp目录下得mentohust.log，记录日志开启方法具体查看运行参数
+  * 运行界面改成英文，telnet不能正常显示中文导致的。  
+  * 删掉了scanf，只能通过配置文件或者运行参数来配置拨号
+  * 在出错重拨等待时候忽略服务器的验证请求，原版的如果不在认证时间段内会导致无线重拨而不等待。
+  
