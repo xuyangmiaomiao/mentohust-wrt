@@ -1,3 +1,9 @@
 #summary 人类已经无法阻止图形化mentohust路由器固件了
 
+= 预览 =
+
 [http://mentohust-wrt.googlecode.com/files/mentohust图形化.PNG]
+
+= 细节 =
+
+由于使用了publicwrt的图形界面，所以固件过一段时间放出，并且取消对部分路由器的图形化支持
